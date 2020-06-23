@@ -2298,6 +2298,7 @@ ul {
   top: 0;
   width: 100%;
   z-index: 999;
+  background-color: rgba(216, 216, 216, 0.2);
 }
 
 /* line 27, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_menu.scss */
@@ -2307,7 +2308,7 @@ ul {
 
 /* line 30, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_menu.scss */
 .main_menu .navbar-nav {
-  margin-left: -140px;
+  /* margin-left: -140px; */
 }
 
 /* line 33, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_menu.scss */
@@ -2642,7 +2643,7 @@ ul {
 
 /* line 339, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_menu.scss */
 .menu_fixed .home_page_btn {
-  color: #fff;
+  color: #fff !important;
 }
 
 /**************** banner part css start ****************/
@@ -5998,8 +5999,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 1;
   text-align: center;
-  background-color: #3b13b0;
-}
+  background-color: #4145a2;}
 
 /* line 7, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_breadcrumb.scss */
 .breadcrumb .breadcrumb_iner {
