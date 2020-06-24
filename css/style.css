@@ -164,6 +164,16 @@ input:hover, input:focus, .form-control:focus {
   }
 }
 
+@media only screen and (max-width: 767px){
+  .container{display: flex; flex-flow: column;}
+  .mobile_first{
+    order: 1;
+  }
+  .mobile_second{
+    order: 2;
+  }
+}
+
 /* line 81, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_common.scss */
 a {
   text-decoration: none;
@@ -2623,7 +2633,7 @@ ul {
 
 /* line 325, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_menu.scss */
 .menu_fixed .main-menu-item ul li .nav-link {
-  color: #fff !important;
+  color: ##949492 !important;
 }
 
 /* line 330, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_menu.scss */
