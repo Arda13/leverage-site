@@ -1,3 +1,3 @@
 # Leverage Bilişim
 
-2020 Web site | v1.2.1
+2020 Web site | v2.2.1
