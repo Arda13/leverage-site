@@ -21,7 +21,9 @@ body {
 }
 
 /* line 12, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_common.scss */
-input:hover, input:focus, .form-control:focus {
+input:hover,
+input:focus,
+.form-control:focus {
   outline: none !important;
   box-shadow: 0 0 0 0.2rem transparent;
   border: 1px solid #eaecee;
@@ -164,12 +166,15 @@ input:hover, input:focus, .form-control:focus {
   }
 }
 
-@media only screen and (max-width: 767px){
-  .container{display: flex; flex-flow: column;}
-  .mobile_first{
+@media only screen and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-flow: column;
+  }
+  .mobile_first {
     order: 1;
   }
-  .mobile_second{
+  .mobile_second {
     order: 2;
   }
 }
@@ -188,7 +193,12 @@ a:hover {
 }
 
 /* line 90, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_common.scss */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #182028;
   font-family: "Barlow Semi Condensed", sans-serif;
 }
@@ -253,7 +263,10 @@ img {
 }
 
 /* line 136, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_common.scss */
-a:focus, .button:focus, button:focus, .btn:focus {
+a:focus,
+.button:focus,
+button:focus,
+.btn:focus {
   text-decoration: none;
   outline: none;
   box-shadow: none;
@@ -462,7 +475,7 @@ ul {
   backface-visibility: hidden;
   animation: jumping 9s ease-in-out 2s infinite alternate;
   animation-delay: 1s;
-  transition: all .9s ease 5s;
+  transition: all 0.9s ease 5s;
   user-select: none;
 }
 
@@ -514,65 +527,65 @@ ul {
 @keyframes jumping {
   0% {
     transform: translateY(0px) translateX(0) rotate(0) scale(1);
-    opacity: .8;
+    opacity: 0.8;
   }
   25% {
     transform: translateY(-10px) translateX(-10px) rotate(20deg) scale(0.8);
-    opacity: .9;
+    opacity: 0.9;
   }
   50% {
     transform: translateY(-15px) translateX(-15px) rotate(10deg) scale(0.9);
-    opacity: .8;
+    opacity: 0.8;
   }
   75% {
     transform: translateY(-20px) translateX(-20px) rotate(20deg) scale(0.75);
-    opacity: .6;
+    opacity: 0.6;
   }
   85% {
     transform: translateY(-25px) translateX(-25px) rotate(20deg) scale(0.9);
-    opacity: .7;
+    opacity: 0.7;
   }
   100% {
     transform: translateY(-15px) translateX(-15px) rotate(0) scale(0.95);
-    opacity: .85;
+    opacity: 0.85;
   }
 }
 
 @keyframes jumping2 {
   0% {
     transform: translateY(0px) translateX(0) rotate(0) scale(1);
-    opacity: .5;
+    opacity: 0.5;
   }
   25% {
     transform: translateY(-30px) translateX(10px) rotate(20deg) scale(0.8);
-    opacity: .8;
+    opacity: 0.8;
   }
   50% {
     transform: translateY(15px) translateX(-15px) rotate(10deg) scale(0.7);
-    opacity: .8;
+    opacity: 0.8;
   }
   75% {
     transform: translateY(30px) translateX(20px) rotate(90deg) scale(0.75);
-    opacity: .7;
+    opacity: 0.7;
   }
   100% {
     transform: translateY(-15px) translateX(15px) rotate(0) scale(0.75);
-    opacity: .9;
+    opacity: 0.9;
   }
 }
 
 @keyframes jumping3 {
   0% {
     transform: translateY(10px) translateX(0) rotate(0) scale(1);
-    opacity: .9;
+    opacity: 0.9;
   }
   20% {
     transform: translateY(20px) translateX(10px) rotate(-20deg) scale(0.8);
-    opacity: .8;
+    opacity: 0.8;
   }
   40% {
     transform: translateY(15px) translateX(-15px) rotate(10deg) scale(0.75);
-    opacity: .8;
+    opacity: 0.8;
   }
   40% {
     transform: translateY(-15px) translateX(-25px) rotate(10deg) scale(0.5);
@@ -580,34 +593,34 @@ ul {
   }
   80% {
     transform: translateY(-30px) translateX(20px) rotate(-20deg) scale(0.75);
-    opacity: .6;
+    opacity: 0.6;
   }
   100% {
     transform: translateY(15px) translateX(15px) rotate(0) scale(0.95);
-    opacity: .7;
+    opacity: 0.7;
   }
 }
 
 @keyframes jumping4 {
   0% {
     transform: translateY(-30px) translateX(40px) rotate(0) scale(1.2);
-    opacity: .7;
+    opacity: 0.7;
   }
   25% {
     transform: translateY(-20px) translateX(0px) rotate(50deg) scale(0.6);
-    opacity: .8;
+    opacity: 0.8;
   }
   50% {
     transform: translateY(15px) translateX(-55px) rotate(20deg) scale(0.5);
-    opacity: .9;
+    opacity: 0.9;
   }
   75% {
     transform: translateY(30px) translateX(30px) rotate(50deg) scale(0.75);
-    opacity: .7;
+    opacity: 0.7;
   }
   100% {
     transform: translateY(-15px) translateX(5px) rotate(0) scale(0.5);
-    opacity: .9;
+    opacity: 0.9;
   }
 }
 
@@ -858,7 +871,8 @@ ul {
 }
 
 /* line 14, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_blog.scss */
-.blog_area a:hover, .blog_area a :hover {
+.blog_area a:hover,
+.blog_area a :hover {
   color: #b9160e;
 }
 
@@ -881,7 +895,7 @@ ul {
 
 /* line 32, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_blog.scss */
 .single-blog .thumb:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -928,7 +942,7 @@ ul {
 
 /* line 80, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_blog.scss */
 .single-blog .tag:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 1px;
   height: 10px;
@@ -987,7 +1001,7 @@ ul {
 
 /* line 131, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_blog.scss */
 .single-blog:hover .thumb:after {
-  opacity: .7;
+  opacity: 0.7;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -1968,7 +1982,7 @@ ul {
 
 /* line 1257, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_blog.scss */
 .single-post-area .navigation-area .nav-left:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 767px) {
@@ -2010,7 +2024,7 @@ ul {
 
 /* line 1292, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_blog.scss */
 .single-post-area .navigation-area .nav-right:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 991px) {
@@ -2561,7 +2575,7 @@ ul {
   content: "\e68e";
   top: 7px;
   left: 0px;
-  font-family: 'themify';
+  font-family: "themify";
   color: #000000;
   font-size: 25px;
   width: 33px;
@@ -2574,7 +2588,7 @@ ul {
   content: "\e68e";
   top: 7px;
   left: 0px;
-  font-family: 'themify';
+  font-family: "themify";
   color: #fff;
   font-size: 25px;
   width: 33px;
@@ -4129,7 +4143,12 @@ h6 {
 }
 
 /* line 117, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_elements.scss */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.2em;
 }
 
@@ -4171,7 +4190,7 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
   line-height: 40px;
   padding: 0 30px;
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
   text-decoration: none;
   font-weight: 500;
@@ -5004,7 +5023,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 798, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_elements.scss */
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -5046,7 +5066,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 835, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_elements.scss */
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../img/elements/success-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -5094,7 +5115,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 876, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_elements.scss */
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -5136,7 +5158,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 913, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_elements.scss */
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -5178,7 +5201,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 950, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_elements.scss */
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/success-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -5226,7 +5250,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 991, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_elements.scss */
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -5698,7 +5723,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 9px;
   right: 12px;
   height: auto;
-  font-family: 'themify';
+  font-family: "themify";
   color: #b9160e;
 }
 
@@ -5808,7 +5833,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 9, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_contact.scss */
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
   color: #8f9195;
   font-size: 27px;
 }
@@ -6009,7 +6035,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 1;
   text-align: center;
-  background-color: #4145a2;}
+  background-color: #4145a2;
+}
 
 /* line 7, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_breadcrumb.scss */
 .breadcrumb .breadcrumb_iner {
@@ -6344,3 +6371,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+@media only screen and (min-width: 992px) {
+  /* line 21, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_common.scss */
+  .flag {
+    position: absolute;
+    right: -70px;
+    top:39%;
+  }
+}
