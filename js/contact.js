@@ -6,7 +6,7 @@ $(document).ready(function(){
     
     jQuery.validator.addMethod('answercheck', function (value, element) {
         return this.optional(element) || /^\bcat\b$/.test(value)
-    }, "type the correct answer -_-");
+    }, "Hatalı bir veri girdiniz");
 
     // validate contactForm form
     $(function() {
@@ -35,23 +35,23 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "Lütfen isminizi giriniz",
+                    minlength: "İsim hanesi en az 2 karakter olmalı"
                 },
                 subject: {
-                    required: "come on, you have a subject, don't you?",
-                    minlength: "your subject must consist of at least 4 characters"
+                    required: "Lütfen konunuzu belirtiniz",
+                    minlength: "Konu hanesi en az 4 karakter olmalı"
                 },
                 number: {
-                    required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
+                    required: "Lütfen numaranızı giriniz",
+                    minlength: "Numaranız en az 5 karakter olmalı"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "Lütfen e-mail adresinizi giriniz"
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
+                    required: "Lütfen mesajınızı giriniz",
+                    minlength: "Mesajınız en az 20 karakter uzunluğunda olmalı."
                 }
             },
             submitHandler: function(form) {
